@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+        "target": "ES2023",
+        "lib": ["ES2023", "DOM", "DOM.Iterable"],
+        "useDefineForClassFields": false,
+        "module": "ESNext",
+        "skipLibCheck": true,
+        "moduleResolution": "bundler",
+        "resolveJsonModule": true,
+        "isolatedModules": true,
+        "noEmit": false,
+        "strict": true,
+        "noFallthroughCasesInSwitch": true,
+        "baseUrl": ".",
+        "outDir": "dist",
+        "sourceMap": true,
+        "preserveSymlinks": true,
+        "allowSyntheticDefaultImports": true,
+        "experimentalDecorators": true,
+        "rootDir": "."
+    },
+    "exclude": ["node_modules", "dist"],
+    "include": [
+        "src/**/*.ts",
+        "vite.config.ts",
+    ]
+}
