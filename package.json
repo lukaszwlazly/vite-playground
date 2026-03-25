@@ -7,10 +7,11 @@
   "scripts": {
     "build": "vite build",
     "build:development": "NODE_ENV=development vite build",
-    "build:watch": "NODE_ENV=development vite --mode development"
+    "server": "http-server dist -p 8080"
   },
   "devDependencies": {
     "@types/object-inspect": "^1.13.0",
+    "http-server": "^14.1.1",
     "typescript": "^6.0.2",
     "vite": "^8.0.2"
   },
